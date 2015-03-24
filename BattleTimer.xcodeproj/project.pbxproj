@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB8E2FF71AC11FF2000766E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8E2FF61AC11FF2000766E1 /* AppDelegate.swift */; };
+		CB8E2FF91AC11FF2000766E1 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8E2FF81AC11FF2000766E1 /* FirstViewController.swift */; };
+		CB8E2FFB1AC11FF2000766E1 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8E2FFA1AC11FF2000766E1 /* SecondViewController.swift */; };
+		CB8E2FFE1AC11FF2000766E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB8E2FFC1AC11FF2000766E1 /* Main.storyboard */; };
+		CB8E30001AC11FF2000766E1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB8E2FFF1AC11FF2000766E1 /* Images.xcassets */; };
+		CB8E30031AC11FF2000766E1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB8E30011AC11FF2000766E1 /* LaunchScreen.xib */; };
+		CB8E300F1AC11FF2000766E1 /* BattleTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8E300E1AC11FF2000766E1 /* BattleTimerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB8E30091AC11FF2000766E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB8E2FE91AC11FF2000766E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB8E2FF01AC11FF2000766E1;
+			remoteInfo = BattleTimer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CB8E2FF11AC11FF2000766E1 /* BattleTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BattleTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB8E2FF51AC11FF2000766E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB8E2FF61AC11FF2000766E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CB8E2FF81AC11FF2000766E1 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		CB8E2FFA1AC11FF2000766E1 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		CB8E2FFD1AC11FF2000766E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB8E2FFF1AC11FF2000766E1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CB8E30021AC11FF2000766E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CB8E30081AC11FF2000766E1 /* BattleTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BattleTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB8E300D1AC11FF2000766E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB8E300E1AC11FF2000766E1 /* BattleTimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleTimerTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB8E2FEE1AC11FF2000766E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB8E30051AC11FF2000766E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB8E2FE81AC11FF2000766E1 = {
+			isa = PBXGroup;
+			children = (
+				CB8E2FF31AC11FF2000766E1 /* BattleTimer */,
+				CB8E300B1AC11FF2000766E1 /* BattleTimerTests */,
+				CB8E2FF21AC11FF2000766E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB8E2FF21AC11FF2000766E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB8E2FF11AC11FF2000766E1 /* BattleTimer.app */,
+				CB8E30081AC11FF2000766E1 /* BattleTimerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB8E2FF31AC11FF2000766E1 /* BattleTimer */ = {
+			isa = PBXGroup;
+			children = (
+				CB8E2FF61AC11FF2000766E1 /* AppDelegate.swift */,
+				CB8E2FF81AC11FF2000766E1 /* FirstViewController.swift */,
+				CB8E2FFA1AC11FF2000766E1 /* SecondViewController.swift */,
+				CB8E2FFC1AC11FF2000766E1 /* Main.storyboard */,
+				CB8E2FFF1AC11FF2000766E1 /* Images.xcassets */,
+				CB8E30011AC11FF2000766E1 /* LaunchScreen.xib */,
+				CB8E2FF41AC11FF2000766E1 /* Supporting Files */,
+			);
+			path = BattleTimer;
+			sourceTree = "<group>";
+		};
+		CB8E2FF41AC11FF2000766E1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB8E2FF51AC11FF2000766E1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CB8E300B1AC11FF2000766E1 /* BattleTimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB8E300E1AC11FF2000766E1 /* BattleTimerTests.swift */,
+				CB8E300C1AC11FF2000766E1 /* Supporting Files */,
+			);
+			path = BattleTimerTests;
+			sourceTree = "<group>";
+		};
+		CB8E300C1AC11FF2000766E1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB8E300D1AC11FF2000766E1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB8E2FF01AC11FF2000766E1 /* BattleTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB8E30121AC11FF2000766E1 /* Build configuration list for PBXNativeTarget "BattleTimer" */;
+			buildPhases = (
+				CB8E2FED1AC11FF2000766E1 /* Sources */,
+				CB8E2FEE1AC11FF2000766E1 /* Frameworks */,
+				CB8E2FEF1AC11FF2000766E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BattleTimer;
+			productName = BattleTimer;
+			productReference = CB8E2FF11AC11FF2000766E1 /* BattleTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB8E30071AC11FF2000766E1 /* BattleTimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB8E30151AC11FF2000766E1 /* Build configuration list for PBXNativeTarget "BattleTimerTests" */;
+			buildPhases = (
+				CB8E30041AC11FF2000766E1 /* Sources */,
+				CB8E30051AC11FF2000766E1 /* Frameworks */,
+				CB8E30061AC11FF2000766E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB8E300A1AC11FF2000766E1 /* PBXTargetDependency */,
+			);
+			name = BattleTimerTests;
+			productName = BattleTimerTests;
+			productReference = CB8E30081AC11FF2000766E1 /* BattleTimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB8E2FE91AC11FF2000766E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Alick Xu";
+				TargetAttributes = {
+					CB8E2FF01AC11FF2000766E1 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					CB8E30071AC11FF2000766E1 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = CB8E2FF01AC11FF2000766E1;
+					};
+				};
+			};
+			buildConfigurationList = CB8E2FEC1AC11FF2000766E1 /* Build configuration list for PBXProject "BattleTimer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB8E2FE81AC11FF2000766E1;
+			productRefGroup = CB8E2FF21AC11FF2000766E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB8E2FF01AC11FF2000766E1 /* BattleTimer */,
+				CB8E30071AC11FF2000766E1 /* BattleTimerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB8E2FEF1AC11FF2000766E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB8E2FFE1AC11FF2000766E1 /* Main.storyboard in Resources */,
+				CB8E30031AC11FF2000766E1 /* LaunchScreen.xib in Resources */,
+				CB8E30001AC11FF2000766E1 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB8E30061AC11FF2000766E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB8E2FED1AC11FF2000766E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB8E2FFB1AC11FF2000766E1 /* SecondViewController.swift in Sources */,
+				CB8E2FF71AC11FF2000766E1 /* AppDelegate.swift in Sources */,
+				CB8E2FF91AC11FF2000766E1 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB8E30041AC11FF2000766E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB8E300F1AC11FF2000766E1 /* BattleTimerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB8E300A1AC11FF2000766E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB8E2FF01AC11FF2000766E1 /* BattleTimer */;
+			targetProxy = CB8E30091AC11FF2000766E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CB8E2FFC1AC11FF2000766E1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB8E2FFD1AC11FF2000766E1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CB8E30011AC11FF2000766E1 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB8E30021AC11FF2000766E1 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB8E30101AC11FF2000766E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CB8E30111AC11FF2000766E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB8E30131AC11FF2000766E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BattleTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CB8E30141AC11FF2000766E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BattleTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CB8E30161AC11FF2000766E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BattleTimerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BattleTimer.app/BattleTimer";
+			};
+			name = Debug;
+		};
+		CB8E30171AC11FF2000766E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BattleTimerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BattleTimer.app/BattleTimer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB8E2FEC1AC11FF2000766E1 /* Build configuration list for PBXProject "BattleTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB8E30101AC11FF2000766E1 /* Debug */,
+				CB8E30111AC11FF2000766E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB8E30121AC11FF2000766E1 /* Build configuration list for PBXNativeTarget "BattleTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB8E30131AC11FF2000766E1 /* Debug */,
+				CB8E30141AC11FF2000766E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CB8E30151AC11FF2000766E1 /* Build configuration list for PBXNativeTarget "BattleTimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB8E30161AC11FF2000766E1 /* Debug */,
+				CB8E30171AC11FF2000766E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB8E2FE91AC11FF2000766E1 /* Project object */;
+}
