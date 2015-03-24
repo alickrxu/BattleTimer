@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		CB8E2FF71AC11FF2000766E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8E2FF61AC11FF2000766E1 /* AppDelegate.swift */; };
-		CB8E2FF91AC11FF2000766E1 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8E2FF81AC11FF2000766E1 /* FirstViewController.swift */; };
 		CB8E2FFB1AC11FF2000766E1 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8E2FFA1AC11FF2000766E1 /* SecondViewController.swift */; };
 		CB8E2FFE1AC11FF2000766E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB8E2FFC1AC11FF2000766E1 /* Main.storyboard */; };
 		CB8E30001AC11FF2000766E1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB8E2FFF1AC11FF2000766E1 /* Images.xcassets */; };
 		CB8E30031AC11FF2000766E1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB8E30011AC11FF2000766E1 /* LaunchScreen.xib */; };
 		CB8E300F1AC11FF2000766E1 /* BattleTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8E300E1AC11FF2000766E1 /* BattleTimerTests.swift */; };
+		CB8E30191AC1319B000766E1 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8E30181AC1319B000766E1 /* TimerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +30,6 @@
 		CB8E2FF11AC11FF2000766E1 /* BattleTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BattleTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB8E2FF51AC11FF2000766E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CB8E2FF61AC11FF2000766E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CB8E2FF81AC11FF2000766E1 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		CB8E2FFA1AC11FF2000766E1 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		CB8E2FFD1AC11FF2000766E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CB8E2FFF1AC11FF2000766E1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -38,6 +37,7 @@
 		CB8E30081AC11FF2000766E1 /* BattleTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BattleTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB8E300D1AC11FF2000766E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CB8E300E1AC11FF2000766E1 /* BattleTimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleTimerTests.swift; sourceTree = "<group>"; };
+		CB8E30181AC1319B000766E1 /* TimerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				CB8E2FF61AC11FF2000766E1 /* AppDelegate.swift */,
-				CB8E2FF81AC11FF2000766E1 /* FirstViewController.swift */,
+				CB8E30181AC1319B000766E1 /* TimerViewController.swift */,
 				CB8E2FFA1AC11FF2000766E1 /* SecondViewController.swift */,
 				CB8E2FFC1AC11FF2000766E1 /* Main.storyboard */,
 				CB8E2FFF1AC11FF2000766E1 /* Images.xcassets */,
@@ -216,8 +216,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB8E2FFB1AC11FF2000766E1 /* SecondViewController.swift in Sources */,
+				CB8E30191AC1319B000766E1 /* TimerViewController.swift in Sources */,
 				CB8E2FF71AC11FF2000766E1 /* AppDelegate.swift in Sources */,
-				CB8E2FF91AC11FF2000766E1 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
